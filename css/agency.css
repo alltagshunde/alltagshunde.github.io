@@ -38,7 +38,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "texgyreadventorregular", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "texgyreadventorregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -206,24 +206,24 @@ fieldset[disabled] .btn-xl.active {
   min-width: 202px;
 }
 @media (max-width: 767px) {
-.logo {
-  background-image: url('../img/logo-neg.png');
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: 15px top;
-  -webkit-background-size: auto;
-  -moz-background-size: auto;
-  background-size: auto;
-  -o-background-size: auto;
-  padding-left: 40px;
-  height: 50px;
-  min-width: 202px;
-}
-.navbar-default {
+  .logo {
+    background-image: url('../img/logo-neg.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 15px top;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    background-size: auto;
+    -o-background-size: auto;
+    padding-left: 40px;
+    height: 50px;
+    min-width: 202px;
+  }
+  .navbar-default {
     padding: 10px 0;
   }
   header {
-margin-top: 70px;
+    margin-top: 70px;
   }
 }
 @media (min-width: 768px) {
@@ -252,20 +252,20 @@ margin-top: 70px;
     font-size: 1.5em;
   }
   .logo {
-  background-image: url('../img/logo-big-berry.png');
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: 15px top;
-  -webkit-background-size: auto;
-  -moz-background-size: auto;
-  background-size: auto;
-  -o-background-size: auto;
-  text-align: center;
-  color: white;
-  padding-left: 74px;
-  height: 150px;
-  min-width: 371px;
-}
+    background-image: url('../img/logo-big-berry.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 15px top;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    background-size: auto;
+    -o-background-size: auto;
+    text-align: center;
+    color: white;
+    padding-left: 74px;
+    height: 150px;
+    min-width: 371px;
+  }
 }
 header {
   background-image: url('../img/header-bg5.jpg');
@@ -284,18 +284,18 @@ header .intro-text {
   padding-bottom: 50px;
 }
 header .intro-text .intro-lead-in {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "texgyreadventorregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 22px;
   line-height: 22px;
   margin-bottom: 25px;
 }
 header .intro-text .intro-heading {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "texgyreadventorregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 50px;
-  line-height: 50px;
+  font-size: 40px;
+  line-height: 40px;
   margin-bottom: 25px;
 }
 @media (min-width: 768px) {
@@ -304,14 +304,14 @@ header .intro-text .intro-heading {
     padding-bottom: 200px;
   }
   header .intro-text .intro-lead-in {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "texgyreadventorregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 25px;
   }
   header .intro-text .intro-heading {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "texgyreadventorregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 75px;
@@ -329,7 +329,7 @@ section h2.section-heading {
 }
 section h3.section-subheading {
   font-size: 16px;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "texgyreadventorregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
   font-style: italic;
   font-weight: 400;
@@ -397,7 +397,7 @@ section h3.section-subheading {
   color: white;
 }
 #portfolio .portfolio-item .portfolio-caption p {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "texgyreadventorregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 16px;
   margin: 0;
@@ -725,7 +725,7 @@ section#contact ul.social-buttons li a:active {
 }
 .portfolio-modal .modal-content p.item-intro {
   margin: 20px 0 30px;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "texgyreadventorregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 16px;
 }
@@ -792,18 +792,6 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #ab125b;
 }
-/*
-.logo .alltag {
-  color: white;
-  font-family: "texgyreadventorregular", "Questrial", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-.logo span {
-  display: none;
-}
-.navbar-default.navbar-shrink .logo span {
-  display: inline;
-}*/
-
 .navbar-default .navbar-brand {
   line-height: normal;
 }
@@ -813,7 +801,7 @@ body {
 #bs-example-navbar-collapse-1 {
   padding-top: 50px;
 }
-#bs-example-navbar-collapse-1  {
+#bs-example-navbar-collapse-1 {
   color: #462810;
   font-weight: bold;
 }

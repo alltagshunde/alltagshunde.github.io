@@ -6,6 +6,7 @@
 body {
 	overflow-x: hidden;
 	.body-font;
+	color: @gray-darkest;
 }
 
 .text-muted {
@@ -45,7 +46,8 @@ a.active {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	.heading-font;
+	.serif-font;
+	text-transform: uppercase;
 	font-weight: 700;
 }
 
@@ -133,6 +135,43 @@ h1, h2, h3, h4, h5, h6 {
 		background-color: @brand-primary-highlight;
 	}
 }
+.navbar-default.navbar-shrink { 
+	.logo {
+		background-image: @logo-shrinked;
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+		background-position: 15px top;
+		-webkit-background-size: auto;
+		-moz-background-size: auto;
+		background-size: auto;
+		-o-background-size: auto;
+		padding-left: 40px;
+		height: 50px;
+		min-width: 202px;
+	}
+}
+
+@media (max-width: 767px) {
+	.logo {
+		background-image: @logo-shrinked;
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+		background-position: 15px top;
+		-webkit-background-size: auto;
+		-moz-background-size: auto;
+		background-size: auto;
+		-o-background-size: auto;
+		padding-left: 40px;
+		height: 50px;
+		min-width: 202px;
+	}
+	.navbar-default {
+		padding: 10px 0;
+	}
+	header {
+		margin-top: 70px;
+	}
+}
 
 @media(min-width:768px) {
     .navbar-default {
@@ -159,10 +198,25 @@ h1, h2, h3, h4, h5, h6 {
 	        font-size: 1.5em;
 	    }    
 	}
+	.logo {
+		background-image: @logo-full;
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+		background-position: 15px top;
+		-webkit-background-size: auto;
+		-moz-background-size: auto;
+		background-size: auto;
+		-o-background-size: auto;
+		text-align: center;
+		color: white;
+		padding-left: 74px;
+		height: 150px;
+		min-width: 371px;
+	}
 }
 
 header {
-	background-image: url('../img/header-bg3.jpg');
+	background-image: @header-image;
 	background-repeat: none;
 	background-attachment: scroll;
 	background-position: 50% 25%;
@@ -180,10 +234,11 @@ header {
 			margin-bottom: 25px;
 		}
 		.intro-heading {
-			.heading-font;
+			.serif-font;
+			text-transform: uppercase;
 			font-weight: 700;
-			font-size: 50px;
-			line-height: 50px;
+			font-size: 40px;
+			line-height: 40px;
 			margin-bottom: 25px;
 		}
 	}
@@ -202,7 +257,8 @@ header {
 				margin-bottom: 25px;
 			}
 			.intro-heading {
-				.heading-font;
+				.serif-font;
+				text-transform: uppercase;
 				font-weight: 700;
 				font-size: 75px;
 				line-height: 75px;
@@ -289,12 +345,13 @@ section {
         .portfolio-caption {
         	max-width: 400px;
         	margin: 0 auto;
-        	background-color: white;
+        	background-color: @brand-primary;
         	text-align: center;
         	padding: 25px;
         	h4 {
         		text-transform: none;
         		margin: 0;
+        		color: white;
         	}
         	p {
         		.serif-font;
@@ -531,9 +588,10 @@ aside.clients {
 
 section#contact {
 	background-color: @gray-darkest;
-	background-image: url('../img/map-image.png');
+	background-image: @contact-image;
 	background-position: center;
 	background-repeat: no-repeat;
+	padding: 75px 0;
 	.section-heading {
 		color: white;
 	}
@@ -623,6 +681,21 @@ ul.social-buttons {
 		}
 	}
 }
+section#contact {
+	ul.social-buttons {
+		li {
+			a {
+				background-color: @brand-primary;
+				color: white;
+		        &:hover,
+		        &:focus,
+		        &:active {
+					background-color: @brand-primary-highlight;
+		        }
+			}
+		}
+	}
+}
 
 .btn:focus,
 .btn:active,
@@ -639,7 +712,7 @@ ul.social-buttons {
 	    box-shadow: none;
 	    border: none;
 	    min-height: 100%;
-	    padding: 100px 0;
+	    padding: 0px 0;
 	    text-align: center;
 		h2 {
 	    	margin-bottom: 15px;
@@ -727,47 +800,32 @@ body {
     webkit-tap-highlight-color: @brand-primary;
 }
 
-
-
-.logo {
-  background-image: url('../img/logo-big-berry.png');
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: 15px top;
-  -webkit-background-size: auto;
-  -moz-background-size: auto;
-  background-size: auto;
-  -o-background-size: auto;
-  text-align: center;
-  color: white;
-  padding-left: 74px;
-  height: 150px;
-  min-width: 371px;
-}
-
-.logo .alltag {
-  color: white; 
-  font-family: "texgyreadventorregular", "Questrial", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-.logo span {
-   display: none;
-}
-
-.navbar-default.navbar-shrink .logo span {
-   display: inline;
-}
-
-.navbar-default.navbar-shrink .logo {
-  background-image: url('../img/dog-small-berry.png');
-  padding-left: 40px;
-  height: 50px;
-  min-width: 0px;
-}
-
 .navbar-default .navbar-brand {
   line-height: normal;
 }
-
 .navbar-default.navbar-shrink .navbar-brand {
   line-height: 8px;
+}
+#bs-example-navbar-collapse-1 {
+  padding-top: 50px;
+}
+#bs-example-navbar-collapse-1  {
+  color: @gray-darkest;
+  font-weight: bold;
+}
+.navbar-default.navbar-shrink #bs-example-navbar-collapse-1 {
+  padding-top: 0px;
+}
+.navbar-default.navbar-shrink #bs-example-navbar-collapse-1 a {
+  color: white;
+  font-weight: 400;
+}
+.contact-heading {
+  color: white;
+  text-transform: none;
+  font-weight: normal;
+  padding-bottom: 20px;
+}
+.popover {
+  max-width: 376px;
 }
