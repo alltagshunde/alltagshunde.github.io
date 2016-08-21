@@ -4,3 +4,4 @@ Allow: /$
 Allow: /index.html
 Allow: /legal.html
 Allow: /privacy.html
+Allow: /sitemap.xml
