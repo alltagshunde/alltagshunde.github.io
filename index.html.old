@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="AlltagsHunde - Training, Dogwalking und Seminare in der Region Bonn, Meckenheim, Wachtberg und Bornheim">
+    <meta name="author" content="AlltagsHunde">
+    <link rel="canonical" href="http://www.alltagshunde-bonn.de"/>
+
+    <title>AlltagsHunde - Training, Dogwalking und Seminare</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/agency.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="fonts/texgyreadventor.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-82648847-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+                <a class="navbar-brand page-scroll logo" href="#page-top"><!--span style="margin-right: 10px;"><img src="img/dog-big-yellow.png" alt="" style="margin-top: -15px; vertical-align: top;"></span--><!--span class="alltag">Alltags</span><span>Hunde</span--></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Angebot</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Philosophie</a>
+                    </li>
+                    <!--li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li-->
+                    <li>
+                        <a class="page-scroll" href="#team">Über mich</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-heading">Willkommen bei AlltagsHunde</div>
+                <a href="#portfolio" class="page-scroll btn btn-xl">Mehr erfahren</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Angebot</h2><br/><br/>
+                    <p class="large">Herzlich willkommen bei AlltagsHunde - Ich freue mich, dass Sie den Weg auf meine Webseite gefunden haben.<br/>
+					In der Region Bonn, Wachtberg und Bornheim biete ich Ihnen - teilweise in Kooperation mit qualifizierten Kolleginnen - ein umfangreiches Angebot rund um den Hund an.<br/>
+					Vielleicht ist auch für Sie und Ihren Hund etwas Passendes dabei und wir lernen uns beim Training oder in einem der Seminare einmal persönlich kennen - Ich freue mich auf Sie und Ihren Hund! </p>
+                    <br/><br/>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/einzeltraining.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Einzeltraining</h4>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/gruppentraining.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Gruppentraining</h4>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/dogwalking2.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Gassidienst</h4>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/seminaremenschhund.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Seminare</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid Section -->
+    <section id="services" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Philosophie</h2><br/><br/>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-lg-8 col-lg-offset-2 ">
+                    <p class="large">Die Hundehaltung sieht heute anders aus als noch vor 30 Jahren. Der gesellschaftliche Druck auf Hunde und ihre Halter nimmt in der heutigen Zeit stetig zu, der Hund muss „funktionieren“.</p>
+                    <p class="large">Das Kernziel meiner Arbeit ist es daher Sie als Hundehalter darin zu unterstützen, Ihren Hund zu einem entspannten Begleiter in Ihrem Alltag zu erziehen. Von Ihnen als Halter erfordert dies in erster Linie ein souveränes Auftreten, das dem Hund Sicherheit vermittelt und Vertrauen schafft. Dazu gehört jedoch auch, Ihrem Hund zu vermitteln was er darf und was unerwünscht ist.</p>
+                    <p class="large">Hunde die gelernt haben, die ihnen aufgezeigten Grenzen zu akzeptieren und sich in Konfliktsituationen auf ihren Menschen zu verlassen, genießen in unserer Gesellschaft mehr Freiheiten und sind in der Regel (fast) überall gern gesehene Gäste.</p>
+                    <p class="large">Um dieses Ziel zu erreichen möchte ich Sie als Hundehalter darin schulen Ihren Hund besser zu verstehen, seine Bedürfnisse zu erkennen und klar mit ihm zu kommunizieren. Im Vordergrund steht dabei statt vielfältiger Hilfsmittel, die soziale Beziehung zwischen Ihnen und Ihrem Hund.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Über mich</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/2.jpg" class="img-responsive img-circle" alt="Carolin Henseler" title="Carolin Henseler">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large">Bevor Anfang 2011 der erste eigene Hund als Welpe bei uns einziehen sollte,  studierte ich - wie es sich ja für einen ordentlichen Hundehalter gehört - gewissenhaft und begierig alles was mir zum Thema Hund in die Finger kam. Natürlich wollte ich bestmöglich auf die Ankunft des neuen Familienmitgliedes vorbereitet sein und meinem Hund von Anfang an einen optimalen Start ins Leben ermöglichen.</p>
+                    <p class="large">Es dauerte jedoch nicht lange und ich fühlte mich erschlagen und verunsichert von der Masse an Informationen die heutzutage von allen Seiten auf arglose Hundehalter einprasseln und insbesondere in der heutigen Medienlandschaft teilweise dogmenartig verbreitet werden.</p>
+                    <p class="large">Auf der Suche nach dem richtigen Weg für mich und meinen Hund wollte ich nun immer mehr und alles ganz genau wissen, besuchte verschiedene Hundeschulen, las viele Bücher, besuchte Seminare etc. doch mein Wissensdurst blieb ungestillt.</p>
+                    <p class="large">2014 entschloss ich mich daher für das Studium zur Hundetrainerin und Verhaltensberaterin bei <a href="https://www.canis-kynos.de" target="_blank">Canis – Zentrum für Kynologie</a>. Ursprünglich nur als private Fortbildung für mich persönlich gedacht, erkannte ich während des Studiums und verschiedener Praktika jedoch schnell, wieviel Spaß es mir bereitet Menschen zu mehr Verständnis für und einer besseren Kommunikation mit Ihrem Hund zu verhelfen. Seitdem bilde ich mich fortlaufend durch den Besuch verschiedener Seminare und Workshops, Praktika in Tierheimen und fachlichen Austausch mit Kolleginnen und Kollegen weiter.  </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Kontakt</h2>
+                </div>
+            </div>
+            <br/>
+            <div class="row text-center">
+                <div class="col-lg-4">
+                </div>
+                <div class="col-lg-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="https://www.facebook.com/AlltagsHunde-Bonn-510797125779243/" target="_blank"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li>
+                        <script type="text/javascript"><!--
+var jiatwbo = ['i','d','o','s','i','e','m','o',':','a','b','e','d','l','g','l','n','h','b',' ','.','>','m','e','l','a','s','d','n','a','a','c','=','t','l','h','n','c','n','e','a','l','<','a',' ','<','@','n','/','.','o','c','a','r','o','f','"','@','u','t','g','l','a','a','"','-','s','a','r','u','e','a','o','h','l','"','r','t','d','=','-','>','"','s','n','e'];var bkhqvau = [53,39,14,46,11,32,51,76,15,21,75,73,80,12,67,44,30,28,34,42,79,85,9,5,22,66,68,72,78,17,45,43,48,65,54,69,37,57,71,40,52,64,82,10,2,0,61,77,83,38,35,16,58,4,60,6,49,20,70,24,26,63,62,84,41,74,27,1,59,29,81,25,19,3,23,55,18,13,31,7,33,56,8,47,36,50];var oirmrkb= new Array();for(var i=0;i<bkhqvau.length;i++){oirmrkb[bkhqvau[i]] = jiatwbo[i]; }for(var i=0;i<oirmrkb.length-29;i++){document.write(oirmrkb[i]);}document.write('<i class="fa fa-at"></i></a>');
+// --></script>
+                        </li>
+                        <li><a tabindex="0" role="button" data-container="body" data-toggle="popover" data-trigger="click" data-placement="right" data-content="&#x30;&#x31;&#x37;&#x36;&#x36;&#x31;&#x37;&#x31;&#x31;&#x37;&#x37;&#x32;"><i class="fa fa-phone"></i></a>
+                        </li>
+                    </ul>
+                    <br/>
+                    <h3 class="contact-heading">Senden Sie mir eine Nachricht</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Name *" id="name" required data-validation-required-message="Bitte geben Sie Ihren Namen ein.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Email *" id="email" required data-validation-required-message="Bitte geben Sie Ihre Email Adresse ein." data-validation-validemail-message="Keine gültige Email Adresse">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Telefon *" id="phone" required data-validation-required-message="Bitte geben Sie Ihre Telefonnummer ein.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Ihre Nachricht *" id="message" required data-validation-required-message="Bitte geben Sie Ihre Nachricht ein."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button id="contactsubmit" type="submit" class="btn btn-xl" data-container="body" data-toggle="popover" data-trigger="manual" data-placement="bottom" data-html="true" data-content="<div id='recaptcha'></div>">Senden</button>
+                                
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; AlltagsHunde 2016</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="https://www.facebook.com/AlltagsHunde-Bonn-510797125779243/" target="_blank"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li>
+                        <script type="text/javascript"><!--
+var jiatwbo = ['i','d','o','s','i','e','m','o',':','a','b','e','d','l','g','l','n','h','b',' ','.','>','m','e','l','a','s','d','n','a','a','c','=','t','l','h','n','c','n','e','a','l','<','a',' ','<','@','n','/','.','o','c','a','r','o','f','"','@','u','t','g','l','a','a','"','-','s','a','r','u','e','a','o','h','l','"','r','t','d','=','-','>','"','s','n','e'];var bkhqvau = [53,39,14,46,11,32,51,76,15,21,75,73,80,12,67,44,30,28,34,42,79,85,9,5,22,66,68,72,78,17,45,43,48,65,54,69,37,57,71,40,52,64,82,10,2,0,61,77,83,38,35,16,58,4,60,6,49,20,70,24,26,63,62,84,41,74,27,1,59,29,81,25,19,3,23,55,18,13,31,7,33,56,8,47,36,50];var oirmrkb= new Array();for(var i=0;i<bkhqvau.length;i++){oirmrkb[bkhqvau[i]] = jiatwbo[i]; }for(var i=0;i<oirmrkb.length-29;i++){document.write(oirmrkb[i]);}document.write('<i class="fa fa-at"></i></a>');
+// --></script>
+                        </li>
+                        <li><a tabindex="0" role="button" data-container="body" data-toggle="popover" data-trigger="click" data-placement="right" data-content="&#x30;&#x31;&#x37;&#x36;&#x36;&#x31;&#x37;&#x31;&#x31;&#x37;&#x37;&#x32;"><i class="fa fa-phone"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="privacy.html">Datenschutz</a>
+                        </li>
+                        <li><a href="legal.html">Impressum</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Gruppentraining</h2>
+                            <!--p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/gruppentraining.png" alt=""-->
+                            <p>In Kooperation mit der <a href="http://www.hundeschule-bornheim.de" target="_blank">Hundeschule Bornheim</a> und der <a href="http://www.360-hundeschule.de" target="_blank">Hundeschule 360° Hund</a> bieten wir verschiedene Gruppenkurse an. Das Angebot umfasst z. B. folgende Kurse: Welpengruppe, Junghundekurse, Erwachsenengruppe, Raufergruppe, Agility u.v.m.</p> 
+                            <p>Alle Gruppenkurse finden auf dem Trainingsgelände in Bornheim-Dersdorf oder der direkten Umgebung statt.</p>
+                            <p>Bei Interesse oder Fragen zu einem der Gruppenangebote wenden Sie sich gerne an meine Kolleginnen Andrea Fricke und Petra Schauer:</p>
+                            <p><a href="http://www.hundeschule-bornheim.de" target="_blank">Andrea Fricke – Hundeschule Bornheim</a></p>
+                            <p><a href="http://www.360-hundeschule.de" target="_blank">Petra Schauer – Hundeschule 360° Hund</a></p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Schließen</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <div class="modal-body">
+                            <h2>Dogwalking / Gassidienst</h2>
+                            <!--p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt=""-->
+                            <table class="table table-bordered">
+                                <tr>
+                                    <td>Termin</td><td>Montag bis Freitag</td>
+                                </tr>
+                                <tr>
+                                    <td>Kosten</td><td>20,00 EUR</td>
+                                </tr>
+                                <tr>
+                                    <td>Ort</td><td>Raum Bonn, Wachtberg und Bornheim<br/>Abholung bei Ihnen zu Hause oder Ihrer Arbeitsstelle</td>
+                                </tr>
+                                <tr>
+                                    <td>Alter des Hundes</td><td>ab 6 Monate</td>
+                                </tr>
+                                <tr>
+                                    <td>Voraussetzung</td><td>unverbindliches Kennenlernen</td>
+                                </tr>
+                            </table>
+                            <p></p>
+                            <p>Mit unserem Gassidienst (dem sogenannten Dogwalking) unterstützen wir Sie, wenn sie aus privaten, gesundheitlichen oder auch beruflichen Gründen zeitlich verhindert sind, Ihrem Hund die angemessene Bewegung zu ermöglichen.</p>
+                            <p>Ausgedehnte Spaziergänge in einer Gruppe mit bis zu 8 Hunden sorgen für die nötige Auslastung Ihres Hundes. Sich in die Gruppe integrieren und mit anderen Hunden kommunizieren oder einfach mal eine Runde zu spielen macht Spaß und definitiv müde.</p>
+                            <p>Dabei können Sie sich sicher sein, dass wir als Dogwalker die Kompetenz und Souveränität besitzen, die Gruppe mit dem nötigen Feingefühl und einem gewissen Maß an Durchsetzungsvermögen auch durch anspruchsvolle Situationen zu führen.</p>
+                            <p>Mitgehen kann daher jeder Hund, auch jagdlich motivierte Hunde oder solche mit auffälligem Sozialverhalten sind herzlich Willkommen.</p>
+                            <h3>UNSER GASSIDIENST BIETEt</h3>
+                            <ul class="list-group">
+                                <li class="list-group-item">Kompetente Betreuung durch ausgebildete Trainer</li>
+                                <li class="list-group-item">Abhol- und Bring-Service – bei Ihnen zu Hause oder ihrer Arbeitsstelle</li>
+                                <li class="list-group-item">Transport der Hunde in einem Fahrzeug mit sicheren und gemütlichen Einzelboxen</li>
+                                <li class="list-group-item">Spaziergang mit der Gruppe (bis zu 10 Hunde) in der Natur</li>
+                                <li class="list-group-item">Dauer des Spaziergangs: ca. 1,5 Stunden</li>
+                                <li class="list-group-item">Artgerechte Auslastung</li>
+                            </ul>
+                            <p><strong>Ihr Hund ist insgesamt ca. 2,5 – 3 Stunden unterwegs und wird bei Rückkehr müde und zufrieden sein.</strong></p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Schließen</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Seminare</h2>
+                            <!--p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p-->
+                            <img class="img-responsive img-centered" src="img/portfolio/seminaremenschhund2.png" alt="">
+                            <p>Gemeinsam mit vier Kolleginnen die den Hund ebenfalls zum beruflichen Mittelpunkt ihres Lebens gemacht haben, entstand die Idee unsere Kompetenzen zu bündeln um Menschen mit Hund(en) in unserer Region qualitativ hochwertige Seminare und Vorträge mit wissenschaftlich fundierten Informationen rund um das Thema Hund anzubieten. So entstand schließlich die Kooperation SEMINARE FÜR MENSCHEN MIT HUND.</p>
+                            <p>Die Bandbreite der Themen reicht daher von Hundeerziehung und –Verhalten über artgerechte Ernährung bis zur Gesundheit des Hundes. Die Informationen werden in  Form kurzweiliger Abendvorträge und Tagesworkshops professionell jedoch auch für Laien verständlich verpackt.</p>
+                            <p>Besuchen Sie doch gerne auch einmal unsere Webseite <a href="http://www.seminare-mensch-hund.de" target="_blank">www.seminare-mensch-hund.de</a> oder auf Facebook <a href="http://www.facebook.com/seminaremenschhund" target="_blank">www.facebook.com/seminaremenschhund</a></p>
+                            <p>Wir freuen uns Sie vielleicht mal bei einem unserer Seminare persönlich kennenzulernen.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Schließen</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Einzeltraining &amp; Verhaltensberatung</h2>
+                            <!--p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt=""-->
+                            <p>Zeigt Ihr Hund im Alltag unerwünschtes oder problematisches Verhalten (z. B. Leinenpöbelei, übersteigertes Jagd- oder Aggressionsverhalten, Zerstörungswut, Verlassensängste etc.) lassen sich diese Probleme am effektivsten in der Einzelberatung lösen.</p>
+                            <p>In einem ausführlichen Erstgespräch geht es zunächst darum, Sie und Ihren Hund kennenzulernen. Gemeinsam analysieren wir, wo genau die Probleme im Alltag liegen und was mögliche Ursachen hierfür sein können.</p>
+                            <p>In den folgenden Stunden  erarbeiten wir zusammen einen Lösungsweg, der zu Ihnen und Ihrem Hund passt und sich gut in Ihren Alltag integrieren lässt. Dabei möchte ich Sie dazu anleiten, zukünftige Herausforderungen mit Ihrem Hund auch alleine meistern zu können.</p>
+                            <p>Das Training findet in Absprache und je nach Problemfall in alltagsnaher Umgebung oder bei Ihnen zuhause statt.</p>
+                            <h3>Kosten</h3>
+                            <table class="table table-bordered">
+                                <tr>
+                                    <td>Erstgespräch (60 – 90 Min.)</td>
+                                    <td>60,00 EUR</td>
+                                </tr>
+                                <tr>
+                                    <td>Einzeltraining pro Einheit (60 Min.)</td>
+                                    <td>50,00 EUR</td>
+                                </tr>
+                            </table>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Schließen</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js" defer></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js" defer></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" defer></script>
+    
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.min.js" defer></script>
+
+    <script src='https://www.google.com/recaptcha/api.js?render=explicit' async defer></script>
+
+</body>
+
+</html>
